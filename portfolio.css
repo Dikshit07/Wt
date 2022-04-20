@@ -1,0 +1,53 @@
+body{
+    background-image: url(bak.png);
+}
+ul {
+    list-style-type: none;
+    /* overflow: hidden;
+    background-color: #333; */
+  }
+  
+  .link{
+    float: left;
+    list-style-type: none;
+    display: inline;
+    background-color:darkslategrey;
+    
+  }
+  
+  .link a {
+    display:flex;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .link a:hover {
+    background-color:blue;
+    color:whitesmoke;
+  }
+
+  .clear{
+    clear: both;
+  }
+  
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.logo{
+float:right;
+
+}
+.button{
+  border-radius: 30%;
+  background-color: aqua;
+  margin-left: 20px;
+
+}
+.button:hover{
+background-color:blue;
+color: whitesmoke;
+}
+
